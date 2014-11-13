@@ -1,6 +1,7 @@
 Package.describe({
   summary: "React rendering for Meteor apps",
   version: "0.0.1",
+  name: "jhartma:react",
   git: "https://github.com/jhartma/meteor-react.git"
 });
 
@@ -10,7 +11,7 @@ Npm.depends({
   "react": reactVersion,
 });
 
-Package._transitional_registerBuildPlugin({
+Package.registerBuildPlugin({
   name: "compileJSX",
   use: [],
   sources: [
