@@ -1,6 +1,6 @@
 Package.describe({
   summary: "React 0.12.2 rendering for Meteor apps",
-  version: "0.0.4",
+  version: "0.0.7",
   name: "jhartma:react",
   git: "https://github.com/jhartma/meteor-react.git"
 });
