@@ -1,11 +1,11 @@
 Package.describe({
-  summary: "React 0.12.1 rendering for Meteor apps",
-  version: "0.0.3",
+  summary: "React 0.12.2 rendering for Meteor apps",
+  version: "0.0.4",
   name: "jhartma:react",
   git: "https://github.com/jhartma/meteor-react.git"
 });
 
-var reactVersion = "0.12.1";
+var reactVersion = "0.12.2";
 
 Npm.depends({
   "react": reactVersion,
@@ -25,7 +25,7 @@ Package.registerBuildPlugin({
 
 Package.on_use(function(api) {
   // Standard distribution of React, same version as react-tools.
-  api.add_files("vendor/react-" + reactVersion + ".js", "client");
+  api.add_files("vendor/react-" + reactVersion + ".min.js", "client");
 
   // On the server, we use the modules that ship with react.
   api.add_files("src/require-react.js", "server");
