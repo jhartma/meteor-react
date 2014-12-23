@@ -1,4 +1,4 @@
-updated version of luma:react-meteor with ReactJS 0.12.0
+updated version of luma:react-meteor with ReactJS 0.12.2
 
 react-meteor
 ============
